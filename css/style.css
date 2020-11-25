@@ -89,5 +89,87 @@ a {
 /* fine header-top */
 /* inizio header-bottom */
 .header_bottom{
-  background-color: red;
+  background-image: url(../img/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header_bottom .box_header_bottom{
+  margin: 60px 0;
+}
+
+.header_bottom .jumbotron_text {
+  margin: 30px 0;
+}
+
+.header_bottom .jumbotron_text h1,
+.header_bottom .jumbotron_text p {
+  color: #fff;
+}
+
+.header_bottom .jumbotron_text p {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.header_bottom .box_login .form-group{
+  margin-bottom: 0;
+}
+
+.header_bottom .box_login{
+  padding: 20px 20px;
+  border-radius: 2%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.header_bottom .box_login h2{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.header_bottom .box_login h2:nth-child(2) {
+  color: #0069ff;
+}
+
+.header_bottom .btn_create{
+  margin: 10px 0 10px 0;
+  width: 100%;
+  background-color: #0069ff;
+  color: #fff;
+}
+
+.header_bottom .btn_create:active,
+.header_bottom .btn_create:focus,
+.header_bottom .btn_create:hover {
+  background-color: #1633ff;
+}
+
+.header_bottom .btn_google{
+  position: relative;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.header_bottom .btn_google img{
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  transform: translate(-50%);
+  height: 20px;
+}
+
+.header_bottom .box_login p,
+.header_bottom .box_login a {
+  font-size: 12px;
+}
+
+.header_bottom .box_login p {
+  margin-top: 15px;
+}
+
+.header_bottom .box_login p a{
+  text-decoration: underline;
+  color: #0069ff;
 }
