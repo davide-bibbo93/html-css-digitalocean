@@ -13,7 +13,7 @@ a {
 /* end common settings */
 
 /* header */
-/* header_top */
+/* inizio header_top */
 .header_top {
   position: fixed;
   top: 0;
@@ -85,4 +85,9 @@ a {
 
 .header_top .btn_hamburger {
   text-align: right;
+}
+/* fine header-top */
+/* inizio header-bottom */
+.header_bottom{
+  background-color: red;
 }
