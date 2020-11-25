@@ -1,0 +1,88 @@
+/* common settings */
+body {
+  min-width: 300px;
+  margin-top: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  font-size: 14px;
+  color: #031b4e;
+}
+/* end common settings */
+
+/* header */
+/* header_top */
+.header_top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 4px 0;
+  z-index: 3;
+}
+
+.header_top .row {
+  line-height: 60px;
+}
+
+.header_top .logo_big{
+  height: 44px;
+}
+
+.header_top .logo_big img{
+  height: 80%;
+}
+
+.header_top ul {
+  margin-bottom: 0;
+}
+
+.header_top li {
+  display: inline-block;
+}
+
+.header_top .left_nav a,
+.header_top .right_nav a {
+  margin-left: 24px;
+  font-weight: 700;
+}
+
+.header_top .left_nav a:active,
+.header_top .left_nav a:focus,
+.header_top .left_nav a:hover,
+.header_top .right_nav a:active,
+.header_top .right_nav a:focus,
+.header_top .right_nav a:hover {
+  margin-left: 24px;
+  text-decoration: none;
+  color: #0069ff;
+}
+
+.header_top a:active span,
+.header_top a:focus span,
+.header_top a:hover span {
+  color: #031b4e;
+}
+
+
+.header_top .right_nav {
+  text-align: right;
+}
+
+.header_top .btn_sign_up {
+  border: 1px solid #0069ff;
+  color: #0069ff;
+}
+
+.header_top .right_nav .btn_sign_up:active,
+.header_top .right_nav .btn_sign_up:focus,
+.header_top .right_nav .btn_sign_up:hover {
+  background-color: #0069ff;
+  color: #ffffff;
+}
+
+.header_top .btn_hamburger {
+  text-align: right;
+}
