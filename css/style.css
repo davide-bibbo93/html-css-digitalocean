@@ -19,12 +19,6 @@ a {
 .padding_top_bottom_60 {
   padding: 60px 0;
 }
-
-.debug-box{
-  width: 50px;
-  height: 50px;
-  background-color: red;
-}
 /* end common settings */
 
 /* header */
@@ -236,3 +230,26 @@ a {
   color: #0069ff;
 }
 /* fine customer */
+/* inizio deploy */
+.deploy .deploy-text{
+  text-align: center;
+  margin: 30px 0;
+}
+
+.deploy .container_extra {
+  margin: 30px 50px 0 150px;
+}
+
+.deploy .box_deploy {
+  margin-top: 10px;
+}
+
+.deploy ul{
+  border-left: 1px solid black;
+  padding-left: 8px;
+}
+
+.deploy li {
+  padding: 10px 0;
+}
+/* fine deploy */
