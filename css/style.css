@@ -19,6 +19,16 @@ a {
 .padding_top_bottom_60 {
   padding: 60px 0;
 }
+
+.no-gutter {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.no-gutter > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
 /* end common settings */
 
 /* header */
@@ -317,3 +327,5 @@ a {
   text-decoration: none;
 }
 /* fine features */
+/* inizio service */
+/* fine service */
