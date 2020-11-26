@@ -112,14 +112,15 @@ a {
   margin: 30px 0;
 }
 
-.header_bottom .jumbotron_text h1,
-.header_bottom .jumbotron_text p {
+.header_bottom .jumbotron_text h1{
   color: #fff;
+  font-size: 45px;
 }
 
 .header_bottom .jumbotron_text p {
   font-size: 24px;
   font-weight: 300;
+  color: #fff;
 }
 
 .header_bottom .box_login .form-group{
@@ -233,7 +234,6 @@ a {
 /* inizio deploy */
 .deploy .deploy-text{
   text-align: center;
-  margin: 30px 0;
 }
 
 .deploy .container_extra {
@@ -253,3 +253,42 @@ a {
   padding: 10px 0;
 }
 /* fine deploy */
+/* inizio design */
+.design {
+  text-align: center;
+}
+
+.design .box_img::before{
+  content: '<';
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.design .box_img::after{
+  content: '>';
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.design img{
+  width: 60%;
+  margin: 40px 20px 20px 20px ;
+}
+
+.design .dots li{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #0069ff;
+  border-radius: 50%;
+}
+
+.design .dots li:first-child{
+  background-color: #0069ff;
+}
+
+.design .dots li:hover{
+  cursor: pointer;
+  background-color: #0069ff;
+}
+/* fine design */
