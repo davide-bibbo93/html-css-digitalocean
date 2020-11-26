@@ -241,16 +241,16 @@ a {
 }
 
 .deploy .box_deploy {
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 .deploy ul{
-  border-left: 1px solid black;
-  padding-left: 8px;
+  padding: 20px;
 }
 
 .deploy li {
-  padding: 10px 0;
+  border-left: 1px solid black;
+  padding: 10px 5px;
 }
 /* fine deploy */
 /* inizio design */
@@ -292,3 +292,28 @@ a {
   background-color: #0069ff;
 }
 /* fine design */
+/* inzio features */
+.features h2 {
+  text-align: center;
+}
+
+.features .container_extra {
+  margin-top: 30px;
+}
+
+.features .box_features p:nth-child(2) {
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.features a {
+  font-size: 16px;
+  color: #0069ff;
+}
+
+.features a:active,
+.features a:focus,
+.features a:hover {
+  text-decoration: none;
+}
+/* fine features */
