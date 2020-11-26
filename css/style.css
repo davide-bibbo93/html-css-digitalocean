@@ -19,6 +19,12 @@ a {
 .padding_top_bottom_60 {
   padding: 60px 0;
 }
+
+.debug-box{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
 /* end common settings */
 
 /* header */
