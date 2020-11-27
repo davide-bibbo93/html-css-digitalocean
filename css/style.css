@@ -16,6 +16,10 @@ a {
   text-align: center;
 }
 
+.bg_white{
+  background-color: #fff;
+}
+
 .padding_top_bottom_60 {
   padding: 60px 0;
 }
@@ -329,4 +333,49 @@ a {
 }
 /* fine features */
 /* inizio service */
+.world{
+  background: #0044C3;
+  padding: 50px 0;
+}
+
+.world .container_extra{
+  margin-top: 20px;
+}
+
+.world h2 {
+  text-align: center;
+}
+
+.world p{
+  padding: 5px 0 10px 0;
+}
+
+.world p{
+  border-bottom: 1px solid rgb(164, 173, 189);
+}
+
+.world .cities > p {
+  color: rgb(164, 173, 189);
+}
+
+.world h2,
+.world p {
+  color: #ffffff;
+}
+
+.world p, .world a{
+  font-size: 12px;
+}
+
+.world a {
+  color: #00d7d2;
+}
+
+.world a:active,
+.world a:focus,
+.world a:hover {
+  text-decoration: none;
+  color: #005fe6;
+}
+
 /* fine service */
