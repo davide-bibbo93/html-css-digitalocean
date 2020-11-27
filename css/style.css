@@ -532,3 +532,11 @@ a {
   color: #fff;
 }
 /* fine footer */
+/* inizio squalo */
+.bot{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+}
+/* fine squalo */
