@@ -306,6 +306,13 @@ a {
   cursor: pointer;
   background-color: #0069ff;
 }
+
+@media screen and (max-width: 767px){
+  .design .box_img::before,
+  .design .box_img::after{
+    display: none;
+  }
+}
 /* fine design */
 /* inzio features */
 .features h2 {
@@ -348,9 +355,6 @@ a {
 
 .world p{
   padding: 5px 0 10px 0;
-}
-
-.world p{
   border-bottom: 1px solid rgb(164, 173, 189);
 }
 
@@ -379,3 +383,87 @@ a {
 }
 
 /* fine service */
+/* inizio rockerbox */
+.rocker{
+  text-align: center;
+}
+
+.rocker .container_extra{
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+  min-width: 200px;
+}
+
+.rocker h2{
+  margin-bottom: 20px;
+}
+
+.rocker img{
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.rocker .box_rocker > p{
+  font-size: 20px;
+}
+
+.rocker .box_rocker > span{
+  display: block;
+}
+
+.rocker .box_rocker > span:nth-child(3){
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.rocker .box_rocker > span:nth-child(4){
+  font-size: 14px;
+}
+
+.rocker .box_rocker div{
+  margin-top: 30px;
+}
+
+.rocker a{
+  color: #0069ff;
+  text-decoration: none;
+}
+
+.rocker .dots{
+  margin-top: 30px;
+}
+
+.rocker .dots li{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #0069ff;
+  border-radius: 50%;
+}
+
+.rocker .dots li:first-child{
+  background-color: #0069ff;
+}
+
+.rocker .dots li:hover{
+  cursor: pointer;
+  background-color: #0069ff;
+}
+
+@media screen and (min-width: 768px){
+  .rocker .container_extra{
+    width: 550px;
+  }
+
+  .rocker img{
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .rocker .container_extra{
+    width: 600px;
+  }
+}
+/* fine rockerbox */
