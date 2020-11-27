@@ -539,4 +539,10 @@ a {
   right: 0;
   z-index: 3;
 }
+
+.bot .bot-text, .bot .bot-figure{
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #000;
+}
 /* fine squalo */
