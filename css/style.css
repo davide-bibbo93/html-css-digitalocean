@@ -341,7 +341,7 @@ a {
 /* fine features */
 /* inizio service */
 .world{
-  background: #0044C3;
+  background-color: #0044C3;
   padding: 50px 0;
 }
 
@@ -467,3 +467,25 @@ a {
   }
 }
 /* fine rockerbox */
+/* inizio start */
+.start{
+  background-color: #0044C3;
+  text-align: center;
+}
+
+.start h2{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.start a{
+  margin-top: 20px;
+  background-color: #fff;
+  color: #0069ff;
+}
+
+.start a:hover{
+  color: #0069ff;
+}
+/* fine start */
