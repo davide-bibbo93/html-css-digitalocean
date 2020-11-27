@@ -393,6 +393,27 @@ a {
   margin: 0 auto;
   padding: 50px 0;
   min-width: 200px;
+  position: relative;
+}
+
+.rocker .container_extra::before{
+  position: absolute;
+  top: 50%;
+  left: -6%;
+  transform: translate(-50%, -50%);
+  content: '<';
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.rocker .container_extra::after{
+  position: absolute;
+  top: 50%;
+  right: -9%;
+  transform: translate(-50%, -50%);
+  content: '>';
+  font-weight: 900;
+  font-size: 40px;
 }
 
 .rocker h2{
@@ -449,6 +470,13 @@ a {
 .rocker .dots li:hover{
   cursor: pointer;
   background-color: #0069ff;
+}
+
+@media screen and (max-width: 767px){
+  .rocker .container_extra::before,
+  .rocker .container_extra::after{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px){
@@ -535,8 +563,8 @@ a {
 /* inizio squalo */
 .bot{
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: 6%;
+  right: 3%;
   z-index: 3;
 }
 
@@ -544,5 +572,27 @@ a {
   display: inline-block;
   vertical-align: middle;
   border: 1px solid #000;
+}
+
+.bot .bot-figure .bot-image{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.bot .bot-figure .bot-image img{
+  width: 100%;
+  vertical-align: middle;
+}
+
+.bot .bot-figure{
+  background-color: #0069ff;
+  border-radius: 5px;
+  position: relative;
+}
+
+.bot .bot-figure .notifica{
+  position: absolute;
 }
 /* fine squalo */
