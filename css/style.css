@@ -493,4 +493,42 @@ a {
 .footer{
   background-color: #010e28;
 }
+
+.footer p {
+  font-size: 14px;
+  color: rgb(140, 147, 156);
+}
+
+.footer img {
+  margin-bottom: 10px;
+}
+
+.footer i{
+  margin: 0 5px;
+  font-size: 20px;
+  color: rgb(140, 147, 156);
+}
+
+.footer i:hover{
+  cursor: pointer;
+  color: #fff;
+}
+
+.footer .map li{
+  margin: 5px 0;
+}
+
+.footer .map li:first-child{
+  color: #fff;
+}
+
+.footer .map a{
+  color: rgb(140, 147, 156);
+  text-decoration: none;
+}
+
+.footer .map a:hover{
+  cursor: pointer;
+  color: #fff;
+}
 /* fine footer */
