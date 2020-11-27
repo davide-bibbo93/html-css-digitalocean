@@ -125,6 +125,7 @@ a {
 .header_bottom .jumbotron_text h1{
   color: #fff;
   font-size: 45px;
+  font-weight: 700;
 }
 
 .header_bottom .jumbotron_text p {
