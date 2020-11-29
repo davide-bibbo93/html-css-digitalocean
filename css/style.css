@@ -13,7 +13,6 @@ a {
 
 .bg_grey{
   background-color: #eee;
-  text-align: center;
 }
 
 .bg_white{
@@ -32,6 +31,10 @@ a {
 .no-gutter > [class*="col-"] {
   padding-right: 0;
   padding-left: 0;
+}
+
+.text-center{
+  text-align: center;
 }
 /* end common settings */
 
@@ -146,7 +149,6 @@ a {
   padding: 20px 20px;
   border-radius: 2%;
   background-color: #ffffff;
-  text-align: center;
 }
 
 .header_bottom .box_login h2{
@@ -203,10 +205,6 @@ a {
 
 /* main */
 /* inzio customer */
-.customers {
-  text-align: center;
-}
-
 .customers h2 {
   font-size: 14px;
   color: rgba(3,27,78,.7);
@@ -247,10 +245,6 @@ a {
 }
 /* fine customer */
 /* inizio deploy */
-.deploy .deploy-text{
-  text-align: center;
-}
-
 .deploy .container_extra {
   margin: 30px 50px 0 150px;
 }
@@ -269,10 +263,6 @@ a {
 }
 /* fine deploy */
 /* inizio design */
-.design {
-  text-align: center;
-}
-
 .design .box_img::before{
   content: '<';
   font-weight: 900;
@@ -315,10 +305,6 @@ a {
 }
 /* fine design */
 /* inzio features */
-.features h2 {
-  text-align: center;
-}
-
 .features .container_extra {
   margin-top: 30px;
 }
@@ -347,10 +333,6 @@ a {
 
 .world .container_extra{
   margin-top: 20px;
-}
-
-.world h2 {
-  text-align: center;
 }
 
 .world p{
@@ -384,10 +366,6 @@ a {
 
 /* fine service */
 /* inizio rockerbox */
-.rocker{
-  text-align: center;
-}
-
 .rocker .container_extra{
   width: 80%;
   margin: 0 auto;
@@ -498,7 +476,6 @@ a {
 /* inizio start */
 .start{
   background-color: #0044C3;
-  text-align: center;
 }
 
 .start h2{
@@ -577,7 +554,6 @@ a {
 .bot .bot-figure .bot-image{
   width: 50px;
   height: 50px;
-  text-align: center;
   line-height: 50px;
 }
 
@@ -603,7 +579,6 @@ a {
 
 .bot .bot-figure .notifica > span{
   color: #fff;
-  text-align: center;
   width: 28px;
   height: 28px;
   font-size: 14px;
