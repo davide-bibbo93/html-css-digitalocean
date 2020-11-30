@@ -28,6 +28,10 @@ h2{
   background-color: #fff;
 }
 
+.text-white{
+  color: #fff;
+}
+
 .padding_top_bottom_60 {
   padding: 60px 0;
 }
@@ -126,7 +130,7 @@ h2{
 .header_top .right_nav .btn_sign_up:focus,
 .header_top .right_nav .btn_sign_up:hover {
   background-color: #0069ff;
-  color: #ffffff;
+  color: #fff;
 }
 /* fine header-top */
 /* inizio header-bottom */
@@ -146,7 +150,6 @@ h2{
 }
 
 .header_bottom .jumbotron_text h1{
-  color: #fff;
   font-size: 45px;
   font-weight: 700;
 }
@@ -154,7 +157,6 @@ h2{
 .header_bottom .jumbotron_text p {
   font-size: 24px;
   font-weight: 300;
-  color: #fff;
 }
 
 .header_bottom .box_login .form-group{
@@ -164,7 +166,6 @@ h2{
 .header_bottom .box_login{
   padding: 20px 20px;
   border-radius: 2%;
-  background-color: #ffffff;
 }
 
 .header_bottom .box_login h2{
@@ -313,11 +314,6 @@ h2{
   color: rgb(164, 173, 189);
 }
 
-.world h2,
-.world p {
-  color: #ffffff;
-}
-
 .world p, .world a{
   font-size: 12px;
 }
@@ -405,14 +401,12 @@ h2{
 }
 
 .start h2{
-  color: #fff;
   font-size: 30px;
   font-weight: 900;
 }
 
 .start a{
   margin-top: 20px;
-  background-color: #fff;
   color: #0069ff;
 }
 /* fine start */
@@ -499,7 +493,6 @@ h2{
 }
 
 .bot .bot-figure .notifica > span{
-  color: #fff;
   width: 28px;
   height: 28px;
   font-size: 14px;
@@ -513,7 +506,6 @@ h2{
   margin-right: 20px;
   padding: 10px;
   border-radius: 5px;
-  background-color: #fff;
   position: relative;
 }
 
