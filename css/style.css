@@ -392,6 +392,8 @@ h2{
   margin-top: 20px;
 }
 /* fine start */
+/* fine main */
+
 /* inizio footer */
 .footer{
   background-color: #010e28;
@@ -520,11 +522,6 @@ h2{
 /* fine squalo */
 /* MEDIAQUERY messe alla fine*/
 @media screen and (max-width: 767px){
-  .rocker .container_extra::before,
-  .rocker .container_extra::after{
-    display: none;
-  }
-
   .rocker .container_extra{
     width: 300px;
   }
