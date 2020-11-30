@@ -20,6 +20,10 @@ h2{
   margin: 20px 0;
 }
 
+.bg_azure{
+  background-color: #0069ff;
+}
+
 .bg_grey{
   background-color: #eee;
 }
@@ -30,6 +34,14 @@ h2{
 
 .text-white{
   color: #fff;
+}
+
+.text-azure{
+  color: #0069ff;
+}
+
+.text-center{
+  text-align: center;
 }
 
 .padding_top_bottom_60 {
@@ -46,20 +58,12 @@ h2{
   padding-left: 0;
 }
 
-.text-center{
-  text-align: center;
-}
-
 .dots li{
   display: inline-block;
   width: 12px;
   height: 12px;
   border: 2px solid #0069ff;
   border-radius: 50%;
-}
-
-.dots li:first-child{
-  background-color: #0069ff;
 }
 
 .dots li:hover{
@@ -123,7 +127,6 @@ h2{
 
 .header_top .btn_sign_up {
   border: 1px solid #0069ff;
-  color: #0069ff;
 }
 
 .header_top .right_nav .btn_sign_up:active,
@@ -173,14 +176,9 @@ h2{
   font-weight: 700;
 }
 
-.header_bottom .box_login h2:nth-child(2) {
-  color: #0069ff;
-}
-
 .header_bottom .btn_create{
   margin: 10px 0 10px 0;
   width: 100%;
-  background-color: #0069ff;
   color: #fff;
 }
 
@@ -215,7 +213,6 @@ h2{
 
 .header_bottom .box_login p a{
   text-decoration: underline;
-  color: #0069ff;
 }
 /* fine header-bottom */
 /* end header */
@@ -241,7 +238,6 @@ h2{
 
 .customers a {
   font-size: 16px;
-  color: #0069ff;
 }
 /* fine customer */
 /* inizio deploy */
@@ -292,7 +288,6 @@ h2{
 
 .features a {
   font-size: 16px;
-  color: #0069ff;
 }
 /* fine features */
 /* inizio service */
@@ -387,10 +382,6 @@ h2{
   margin-top: 30px;
 }
 
-.rocker a{
-  color: #0069ff;
-}
-
 .rocker .dots{
   margin-top: 30px;
 }
@@ -407,7 +398,6 @@ h2{
 
 .start a{
   margin-top: 20px;
-  color: #0069ff;
 }
 /* fine start */
 /* inizio footer */
@@ -478,7 +468,6 @@ h2{
 }
 
 .bot .bot-figure{
-  background-color: #0069ff;
   border-radius: 5px;
   position: relative;
 }
