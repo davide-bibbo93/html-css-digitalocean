@@ -16,6 +16,10 @@ a:active, a:focus, a:hover{
   text-decoration: none;
 }
 
+h2{
+  margin: 20px 0;
+}
+
 .bg_grey{
   background-color: #eee;
 }
@@ -528,6 +532,14 @@ a:active, a:focus, a:hover{
   .rocker .container_extra::after{
     display: none;
   }
+
+  .rocker .container_extra{
+    width: 300px;
+  }
+
+  .rocker img{
+    width: auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -538,7 +550,7 @@ a:active, a:focus, a:hover{
   }
 
   .rocker .container_extra{
-    width: 550px;
+    width: 350px;
   }
 
   .rocker img{
@@ -558,7 +570,7 @@ a:active, a:focus, a:hover{
   }
 
   .rocker .container_extra{
-    width: 600px;
+    width: 500px;
   }
 }
 /* fine MEDIAQUERY */
