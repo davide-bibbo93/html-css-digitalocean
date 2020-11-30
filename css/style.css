@@ -20,6 +20,10 @@ h2{
   margin: 20px 0;
 }
 
+.bg_blue{
+  background-color: #0044C3;
+}
+
 .bg_azure{
   background-color: #0069ff;
 }
@@ -69,6 +73,25 @@ h2{
 .dots li:hover{
   cursor: pointer;
   background-color: #0069ff;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  font-size: 30px;
+}
+
+.slider-arrow-left {
+  left: 22%;
+}
+
+.slider-arrow-right {
+  right: 22%;
+}
+
+.disabled {
+  opacity: .5;
 }
 /* end common settings */
 
@@ -236,7 +259,7 @@ h2{
   width: 100%;
 }
 
-.customers a {
+.customers a .features a {
   font-size: 16px;
 }
 /* fine customer */
@@ -259,16 +282,14 @@ h2{
 }
 /* fine deploy */
 /* inizio design */
-.design .box_img::before{
-  content: '<';
-  font-weight: 900;
-  font-size: 40px;
+.design .slider-box{
+  position: relative;
+  height: 100%;
 }
 
-.design .box_img::after{
-  content: '>';
-  font-weight: 900;
-  font-size: 40px;
+.design .slider-box .slider-inner {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .design img{
@@ -285,14 +306,9 @@ h2{
   margin-top: 20px;
   font-weight: 700;
 }
-
-.features a {
-  font-size: 16px;
-}
 /* fine features */
 /* inizio service */
 .world{
-  background-color: #0044C3;
   padding: 50px 0;
 }
 
@@ -332,26 +348,6 @@ h2{
   position: relative;
 }
 
-.rocker .container_extra::before{
-  position: absolute;
-  top: 50%;
-  left: -6%;
-  transform: translate(-50%, -50%);
-  content: '<';
-  font-weight: 900;
-  font-size: 40px;
-}
-
-.rocker .container_extra::after{
-  position: absolute;
-  top: 50%;
-  right: -9%;
-  transform: translate(-50%, -50%);
-  content: '>';
-  font-weight: 900;
-  font-size: 40px;
-}
-
 .rocker h2{
   margin-bottom: 20px;
 }
@@ -387,10 +383,6 @@ h2{
 }
 /* fine rockerbox */
 /* inizio start */
-.start{
-  background-color: #0044C3;
-}
-
 .start h2{
   font-size: 30px;
   font-weight: 900;
@@ -528,10 +520,6 @@ h2{
 /* fine squalo */
 /* MEDIAQUERY messe alla fine*/
 @media screen and (max-width: 767px){
-  .design .box_img::before,
-  .design .box_img::after{
-    display: none;
-  }
   .rocker .container_extra::before,
   .rocker .container_extra::after{
     display: none;
